@@ -217,7 +217,7 @@ body {
 }
 
 .benefits-item {
-  min-width: 270px;
+  flex-basis: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
 
@@ -260,7 +260,7 @@ body {
 }
 
 .specialization-item {
-  min-width: 370px;
+  flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
 
@@ -280,7 +280,7 @@ body {
 }
 
 .team-item {
-  min-width: 270px;
+  flex-basis: calc((100% - 90px) / 4);
   margin-right: 30px;
   background-color: var(--primary-bgc-color);
   box-shadow: 0px 1px 3px var(--first-card-shadow-color),
@@ -408,7 +408,7 @@ body {
 }
 
 .portfolio-item {
-  flex-basis: calc((100% - 2 * 30px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-caption {
